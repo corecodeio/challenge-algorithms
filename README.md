@@ -11,17 +11,17 @@ from scratch along with
 industry experts.
 
 
-## Index 🧐
+## Index
 
-1. [Introduction](#1-introduction)
-2. [How to start](#2-howtostart)
-3. [Challenges](#3-challenges)
+1. [Introduction](#1-introduction🧐)
+2. [How to start](#2-howtostart👩🏽‍🏫)
+3. [Challenges](#3-challenges👨🏻‍💻)
 ------
 
-## 1. Introduction
+## 1. Introduction 🧐
 <p>Welcome to the code challenges, here you can find different exercises that will require the best of you, meditate on the problem, try to divide it into sub-problems, create an idea and until then start programming. Remember that the most important thing is to learn in the process. We wish you the best.</p>
-<p>
-<q>The greatest of all weaknesses is the fear of appearing weak.”</q>
+<p style="color:gray">
+<q>The greatest of all weaknesses is the fear of appearing weak.</q>
 <br>
 ― Andrew Hunt, The Pragmatic Programmer: From Journeyman to Master
 </p>
@@ -51,7 +51,7 @@ challenge-algorithms
             |   ...
 ```
 
-# 3. Challenges 👨🏻‍💻
+## 3. Challenges 👨🏻‍💻
 
 1. [Pattern Chaser]()
 2. [K Unique Characters]()
