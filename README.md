@@ -22,7 +22,7 @@ industry experts.
 <p>Welcome to the code challenges, here you can find different exercises that will require the best of you, meditate on the problem, try to divide it into sub-problems, create an idea and until then start programming. Remember that the most important thing is to learn in the process. We wish you the best.</p>
 
 ## 2. Getting Started
-<p>First you need to <a href="https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo">fork this repository</a>. After forking the repository inside the folder with the name <b><i>challenges</i></b>, you will find the challenges, and inside every folder of a challenge you will find a folder with the name <b><i>solutions</i></b> is inside that folder that you will need to create a new folder with the following name: <b>YOUR_GITHUB_USER_NAME</b> where you will submit your solution to the challenge.</p>
+<p>First you need to <a href="https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo">fork this repository</a>. After forking the repository inside the folder with the name <b><i>challenges</i></b>, you will find the challenges, and inside every folder of a challenge you will need to create a folder with the name: <b>YOUR_GITHUB_USER_NAME</b> where you will submit your solution to the challenge.</p>
 
 ```
 challenge-algorithms
@@ -33,24 +33,24 @@ challenge-algorithms
     └───challenge0
     |   │   README.md
     |   │
-    |   |───solutions
-    |       │   GITHUB_USER <-- Your folder with the solution inside! 
+    |   |───YOUR_GITHUB_USER_NAME
+    |       │   solution <-- Your folder with the solution inside! 
     |       |   ...
     |
     └───challenge1
     |   │   README.md
     |   │
-    |   |───solutions
-    |       │   GITHUB_USER <-- Your folder with the solution inside!
+    |   |───YOUR_GITHUB_USER_NAME
+    |       │   solution <-- Your folder with the solution inside!
             |   ...
 ```
 
 ## 3. Challenges
 
-1. [Pattern Chaser]()
-2. [K Unique Characters]()
-3. [Word Split]()
-4. [FizzBuzz]()
+1. [Pattern Chaser](challanges/pattern-chaser/README.md)
+2. [K Unique Characters](challanges/k-unique-characters/README.md)
+3. [Word Split](challanges/word-split/README.md)
+4. [FizzBuzz](challanges/fizzbuzz/README.md)
 
 
 ---
