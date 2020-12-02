@@ -34,14 +34,14 @@ challenge-algorithms
     |   │   README.md
     |   │
     |   |───YOUR_GITHUB_USER_NAME
-    |       │   solution <-- Your folder with the solution inside! 
+    |       │   solution <-- Your solution of the challange0! 
     |       |   ...
     |
     └───challenge1
     |   │   README.md
     |   │
     |   |───YOUR_GITHUB_USER_NAME
-    |       │   solution <-- Your folder with the solution inside!
+    |       │   solution <-- Your solution of the challange1!
             |   ...
 ```
 
