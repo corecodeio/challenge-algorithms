@@ -2,6 +2,6 @@ function FizzBuzz(num)
 { 
 
     // code goes here  
-    return num; 
+    return num;
 }
 module.exports = FizzBuzz;

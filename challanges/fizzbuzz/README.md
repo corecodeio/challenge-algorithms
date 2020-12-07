@@ -19,7 +19,7 @@ The input will be within the range 1 - 50.`
     Output: 1 2 Fizz 4 Buzz Fizz 7 8
 ```
 
-### Initial code
+### Initial code (To test in console by yourself)
 ```javascript
 function FizzBuzz(num)
 { 
@@ -30,4 +30,57 @@ function FizzBuzz(num)
    
 // keep this function call here 
 console.log(FizzBuzz(readline()));
+```
+
+### Intial code (For automated test)
+````javascript 
+function FizzBuzz(num)
+{ 
+
+    // code goes here  
+    return num; 
+}
+module.exports = FizzBuzz;
+````
+
+>You can find this code inside the `solution.js` file listed here. after placing your logic inside this code, you can run the following command to test your code: 
+
+```console
+  > npm -s run fizzbuzz
+```
+>This command should be run inside the root of the repository folder. 
+
+
+This will show you something like this:
+
+>FAIL TEST
+```console
+ FAIL  challanges/fizzbuzz/_test/solution.test.js
+  ● FizzBuzz(3)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "1 2 Fizz"
+    Received: 3
+
+  ● FizzBuzz(8)
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "1 2 Fizz 4 Buzz Fizz 7 8"
+    Received: 3
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 2 total
+Snapshots:   0 total
+Time:        1.329 s
+```
+>CORRECT TEST
+```console
+ PASS  challanges/fizzbuzz/_test/solution.test.js
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 1 total
+Snapshots:   0 total
+Time:        1.494 s
 ```
