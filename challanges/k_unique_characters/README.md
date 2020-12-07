@@ -46,13 +46,13 @@ function KUniqueCharacters(str)
 module.exports = KUniqueCharacters;
 ````
 
->You can find this code inside the `solution.js` file listed here. after placing your logic inside this code, you can run the following command to test your code: 
+>You can find this code inside the `solution.js` file listed here. After placing your logic inside this code, you can run the following command to test your code: 
+
+>This command should be run inside the root of the repository folder. 
 
 ```console
   > npm -s run k_unique_characters
 ```
->This command should be run inside the root of the repository folder. 
-
 
 This will show you something like this:
 
