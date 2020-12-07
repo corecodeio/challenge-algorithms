@@ -1,0 +1,27 @@
+{
+  "name": "challenge-algorithms",
+  "version": "1.0.0",
+  "description": "challenge-algorithms",
+  "main": "index.js",
+  "scripts": {
+    "fizzbuzz": "jest --runTestsByPath --noStackTrace --silent ./challanges/fizzbuzz/_test/solution.test.js",
+    "k_unique_characters": "jest --runTestsByPath --noStackTrace --silent ./challanges/k_unique_characters/_test/solution.test.js",
+    "pattern_chaser": "jest --runTestsByPath --noStackTrace --silent ./challanges/pattern_chaser/_test/solution.test.js",
+    "word_split": "jest --runTestsByPath --noStackTrace --silent ./challanges/word_split/_test/solution.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corecodeio/challenge-algorithms.git"
+  },
+  "keywords": [],
+  "author": "core-code.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corecodeio/challenge-algorithms/issues"
+  },
+  "homepage": "https://github.com/corecodeio/challenge-algorithms#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
