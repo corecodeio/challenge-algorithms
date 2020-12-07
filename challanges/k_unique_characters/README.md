@@ -13,7 +13,7 @@ Your program should return `"aabba"` because it is the longest substring.
 
 If there are multiple longest substrings, then return the first substring encountered with the longest length. `k will range from 1 to 6`.
 
-### Examples
+## Examples
 ```
     Input: "3aabacbebebe"
     Output: cbebebe
@@ -22,7 +22,7 @@ If there are multiple longest substrings, then return the first substring encoun
     Output: bbcbbb
 ```
 
-### Initial code
+## Initial code (To test in console by yourself)
 ```javascript
 function KUniqueCharacters(str) 
 { 
@@ -33,4 +33,58 @@ function KUniqueCharacters(str)
    
 // keep this function call here 
 console.log(KUniqueCharacters(readline()));
+```
+
+## Intial code (For automated test)
+````javascript 
+function KUniqueCharacters(str) 
+{ 
+
+    // code goes here  
+    return str;
+}
+module.exports = KUniqueCharacters;
+````
+
+>You can find this code inside the `solution.js` file listed here. after placing your logic inside this code, you can run the following command to test your code: 
+
+```console
+  > npm -s run k_unique_characters
+```
+>This command should be run inside the root of the repository folder. 
+
+
+This will show you something like this:
+
+>FAIL TEST
+```console
+  FAIL  challanges/k_unique_characters/_test/solution.test.js
+  ● KUniqueCharacters("3aabacbebebe")
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "cbebebe"
+    Received: "3aabacbebebe"
+
+  ● KUniqueCharacters("2aabbcbbbadef")
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "bbcbbb"
+    Received: "2aabbcbbbadef"
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 2 total
+Snapshots:   0 total
+Time:        1.323 s
+```
+
+>CORRECT TEST
+```console
+ PASS  challanges/k_unique_characters/_test/solution.test.js
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 1 total
+Snapshots:   0 total
+Time:        1.494 s
 ```

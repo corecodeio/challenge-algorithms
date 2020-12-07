@@ -13,7 +13,7 @@ Your program should return `the two words that exist in the dictionary separated
 There will only be one correct way to split the first element of characters into two words. If there is no way to split string into two words that exist in the dictionary, return the string not possible. 
 The first element itself will never exist in the dictionary as a real word.
 
-### Examples
+## Examples
 ```
     Input: ["baseball", "a,all,b,ball,bas,base,cat,code,d,e,quit,z"]
     Output: base,ball
@@ -22,7 +22,7 @@ The first element itself will never exist in the dictionary as a real word.
     Output: abcg,efd
 ```
 
-### Initial code
+## Initial code (To test in console by yourself)
 ```javascript
 function WordSplit(strArr)
 { 
@@ -33,4 +33,57 @@ function WordSplit(strArr)
    
 // keep this function call here 
 console.log(WordSplit(readline()));
+```
+
+## Intial code (For automated test)
+````javascript 
+function WordSplit(strArr)
+{ 
+
+    // code goes here  
+    return strArr;
+}
+module.exports = WordSplit;
+````
+
+>You can find this code inside the `solution.js` file listed here. after placing your logic inside this code, you can run the following command to test your code: 
+
+```console
+  > npm -s run word_split
+```
+>This command should be run inside the root of the repository folder.
+
+This will show you something like this:
+
+>FAIL TEST
+```console
+ FAIL  challanges/word_split/_test/solution.test.js
+  ● WordSplit(["baseball", "a,all,b,ball,bas,base,cat,code,d,e,quit,z"])
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "base,ball"
+    Received: ["baseball", "a,all,b,ball,bas,base,cat,code,d,e,quit,z"]
+
+  ● WordSplit(["abcgefd", "a,ab,abc,abcg,b,c,dog,e,efd,zzzz"])
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "abcg,efd"
+    Received: ["abcgefd", "a,ab,abc,abcg,b,c,dog,e,efd,zzzz"]
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 2 total
+Snapshots:   0 total
+Time:        1.362 s
+```
+
+>CORRECT TEST
+```console
+ PASS  challanges/word_split/_test/solution.test.js
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 1 total
+Snapshots:   0 total
+Time:        1.494 s
 ```

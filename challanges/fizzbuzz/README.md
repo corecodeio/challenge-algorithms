@@ -8,9 +8,9 @@ Have the function `FizzBuzz(num)` take the `num` parameter being passed and retu
 if num is 16
 Your program should return the string "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16". 
 ```
-The input will be within the range 1 - 50.`
+The input will be within the range 1 - 50.
 
-### Examples
+## Examples
 ```
     Input: 3
     Output: 1 2 Fizz
@@ -19,7 +19,7 @@ The input will be within the range 1 - 50.`
     Output: 1 2 Fizz 4 Buzz Fizz 7 8
 ```
 
-### Initial code (To test in console by yourself)
+## Initial code (To test in console by yourself)
 ```javascript
 function FizzBuzz(num)
 { 
@@ -32,7 +32,7 @@ function FizzBuzz(num)
 console.log(FizzBuzz(readline()));
 ```
 
-### Intial code (For automated test)
+## Intial code (For automated test)
 ````javascript 
 function FizzBuzz(num)
 { 
@@ -49,7 +49,6 @@ module.exports = FizzBuzz;
   > npm -s run fizzbuzz
 ```
 >This command should be run inside the root of the repository folder. 
-
 
 This will show you something like this:
 
@@ -75,6 +74,7 @@ Tests:       2 failed, 2 total
 Snapshots:   0 total
 Time:        1.329 s
 ```
+
 >CORRECT TEST
 ```console
  PASS  challanges/fizzbuzz/_test/solution.test.js
