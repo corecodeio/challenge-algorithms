@@ -1,6 +1,6 @@
 function FizzBuzz(num)
-{ 
-
+{
+    
     // code goes here  
     return num;
 }
