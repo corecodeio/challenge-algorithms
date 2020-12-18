@@ -4,10 +4,8 @@
   "description": "challenge-algorithms",
   "main": "index.js",
   "scripts": {
-    "fizzbuzz": "jest --runTestsByPath --noStackTrace --silent ./challanges/fizzbuzz/_test/solution.test.js",
-    "k_unique_characters": "jest --runTestsByPath --noStackTrace --silent ./challanges/k_unique_characters/_test/solution.test.js",
-    "pattern_chaser": "jest --runTestsByPath --noStackTrace --silent ./challanges/pattern_chaser/_test/solution.test.js",
-    "word_split": "jest --runTestsByPath --noStackTrace --silent ./challanges/word_split/_test/solution.test.js"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
